@@ -14,9 +14,3 @@ use Application\Assets\Header\HttpHeadersManager\HttpHeadersManager;
 Route::get("/", [], function ($params) {
     return "Hello word!";
 });
-Route::get("/doc", [], function ($params) {
-    include "doc-db.html";
-});
-Route::get("/doc/mailer", [], function ($params) {
-    include "doc-mailer.html";
-});
